@@ -27,8 +27,5 @@ let package = Package(
             path: "DemoSPM",
             publicHeadersPath: "include",
             cSettings: [.headerSearchPath("./")]),
-        .testTarget(
-            name: "DemoSPMTests",
-            dependencies: ["DemoSPM"]),
     ]
 )
