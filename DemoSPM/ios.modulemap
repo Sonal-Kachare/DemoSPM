@@ -1,0 +1,6 @@
+framework module DemoSPM {
+    header "MyClass.h"
+    header "MyClass+InApp.h"
+    export *
+    module * { export * }
+}
