@@ -25,6 +25,9 @@ let package = Package(
             name: "DemoSPM",
             dependencies: [],
             path: "DemoSPM",
+            resources: [
+                .process("ios.modulemap")
+            ],
             publicHeadersPath: "include",
             cSettings: [.headerSearchPath("./")]),
     ]
